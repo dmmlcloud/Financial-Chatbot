@@ -1,0 +1,601 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "information",
+        "synonyms": ["info"]
+      },
+      {
+        "value": "want",
+        "synonyms": ["wanna"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "thanks", 
+        "intent": "thankyou", 
+        "entities": []
+      }, 
+      {
+        "text": "thank you", 
+        "intent": "thankyou", 
+        "entities": []
+      }, 
+      {
+        "text": "thank you very much",
+        "intent": "thankyou", 
+        "entities": []
+      }, 
+      {
+        "text": "thanks a lot", 
+        "intent": "thankyou", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "right, thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great choice",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sounds really good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "what can you do for me",
+        "intent": "explanation",
+        "entities": []
+      },
+      {
+        "text": "what can you help me",
+        "intent": "explanation",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for stock information of companies",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "I want some stock information",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "well, I want to get stock information",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "I am searching for stock information",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for stock information",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "I'd like some stock information",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "i wanna information of AAPL",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "apple company",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "apple",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me current price",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "price",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "the current price",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "price",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "what about price",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "price",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "show me today's volume",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "volume",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "today's volume",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "volume",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "please offer me information of volume",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "volume",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "how about volume",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "volume",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "how about today's volume",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "volume",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "the latest volume",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "volume",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "market cap",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "market cap",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "show me market cap",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "market cap",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "the market cap, please",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "market cap",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "tell me the market cap",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "market cap",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "historical data",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "historical data",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "i wanna know more about historical data",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "historical data",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "i want to get historical data",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "historical data",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "how about historical data",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "historical data",
+            "entity": "info"
+          }
+        ]
+      },
+            {
+        "text": "i want to know more peer stocks",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "peers",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "show me peer stocks",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "peers",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "how about peers",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "peers",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "is there any peers",
+        "intent": "information_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "peers",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "search for stock",
+        "intent": "stock_search",
+        "entities": []
+      },
+      {
+        "text": "I am looking for google's stock information",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "GOOGL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me google stock",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "GOOGL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for blackberry's stock information",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "BB",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me BlackBerry Limited stock",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "BB",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "IBM stock",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "IBM",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "IBM please",
+        "intent": "company_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "IBM",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      }
+    ]
+  }
+}
