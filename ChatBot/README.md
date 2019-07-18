@@ -4,9 +4,9 @@ Stock information is obtained from [IEX Cloud](https://iexcloud.io/) using API [
 The training data is created by myself, and using `RASA NLU` to be data training and processing framework of Chatbot which also use `spacy` as a frame to process natural language<br>
 ## Content
 [Requirement](#requirement)<br>
-[File Manifest](#-file-manifest)<br>
-[Getting Started](#-getting-started)<br>
-[Demo](#-demo)<br>
+[File Manifest](#file-manifest)<br>
+[Getting Started](#getting-started)<br>
+[Demo](#demo)<br>
 
 ## Requirement
 1. Python<br>
@@ -29,4 +29,4 @@ The training data is created by myself, and using `RASA NLU` to be data training
 ## Getting Started
 
 ## Demo
-
+Here is the [Demo Video]() of the Chatbot running on WeChat
