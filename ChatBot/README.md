@@ -17,7 +17,7 @@ The training data is created by myself, and using `RASA NLU` to be data training
 `pip install`<br>
 
 ## File Manifest
-├── Readme.md                     // help<br>
+├── Readme.md&emsp;&emsp;// help<br>
 ├── Chatbot.py                    // Source program of Chatbot<br>
 ├── Chatbot_wechat.py             // Source program of Chatbot on Wechat<br>
 ├── Chatbot_train.json            // Training data<br>
