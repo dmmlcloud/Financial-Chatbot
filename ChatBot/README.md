@@ -3,10 +3,10 @@ This is a Chatbot that can have a simple daily conversation with you and help yo
 Stock information is obtained from [IEX Cloud](https://iexcloud.io/) using API [iexfinance](https://addisonlynch.github.io/iexfinance/devel/)<br>
 The training data is created by myself, and using `RASA NLU` to be data training and processing framework of Chatbot which also use `spacy` as a frame to process natural language<br>
 ## Content
-[Requirement](#1)<br>
-[File Manifest](#2)<br>
-[Getting Started](#3)<br>
-[Demo](#4)<br>
+[Requirement](#requirement)<br>
+[File Manifest](#file manifest)<br>
+[Getting Started](#getting started)<br>
+[Demo](#demo)<br>
 
 ## Requirement
 1. Python<br>
