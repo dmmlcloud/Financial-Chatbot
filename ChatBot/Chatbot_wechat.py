@@ -37,12 +37,8 @@ p_state = None
 
 picture_path = './historical_data.png'
 
-FRIEND_NAME = 'lrys'
-
 # initial wechat robot
 bot = Bot(cache_path=True)
-#search friend
-my_friend = bot.friends().search(FRIEND_NAME)[0]
 
 
 keywords = {
@@ -177,7 +173,7 @@ def interpret(message):
         return "bye", None
 
 
-@bot.register(my_friend)
+@bot.register()
 def send_message(msg):
     global Company_name
     global peer_flag
