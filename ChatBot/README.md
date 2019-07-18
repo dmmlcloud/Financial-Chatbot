@@ -23,8 +23,8 @@ The training data is created by myself, and using `RASA NLU` to be data training
 ├── Chatbot_train.json&emsp;&emsp;&ensp;// Training data<br>
 ├── config_spacy.yml&emsp;&emsp;&emsp;// Config for spacy<br>
 ├── historical_data.png&emsp;&emsp;// picture formed by historical data<br>
-├── WeChat_test.mp4&emsp;&emsp;&emsp;// Demo of Chatbot on Wechat<br>
-├── wxpy.plk &emsp;&emsp;&emsp;&emsp;// The buffer generated once you log in<br>
+├── WeChat_test.mp4&emsp;&emsp;&ensp;// Demo of Chatbot on Wechat<br>
+├── wxpy.plk &emsp;&emsp;&emsp;&emsp;&emsp;// The buffer generated once you log in<br>
 
 ## Getting Started
 
