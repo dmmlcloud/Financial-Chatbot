@@ -30,7 +30,10 @@ The training data is created by myself, and using `RASA NLU` to be data training
 Download whole project and use python to run the source programe<br>
 `python Chatbot.py`<br>
 Then you can communicate with Chatbot and ask him about stock information<br>
-And if you want to 
+And if you want to run it on the Wechat, you need to run other programe<br>
+`python Chatbot_wechat.py`<br>
+Then, scan two-dimensional code ejected in your computer with your wechat.<br>
+Finishing above steps, your account will be controled by Chatbot. He can help you to reply message about stock other people send to you. You can ask your friend make a test.<br>
 
 ## Demo
 Here is the [Demo Video](https://github.com/dmmlcloud/Financial-Chatbot/blob/master/ChatBot/WeChat_test.mp4) of the Chatbot running on WeChat<br>
