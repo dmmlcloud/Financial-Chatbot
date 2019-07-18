@@ -33,4 +33,6 @@ Then you can communicate with Chatbot and ask him about stock information<br>
 And if you want to 
 
 ## Demo
-Here is the [Demo Video](https://github.com/dmmlcloud/Financial-Chatbot/blob/master/ChatBot/WeChat_test.mp4) of the Chatbot running on WeChat
+Here is the [Demo Video](https://github.com/dmmlcloud/Financial-Chatbot/blob/master/ChatBot/WeChat_test.mp4) of the Chatbot running on WeChat<br>
+Or you can see the gif below<br>
+![](https://github.com/dmmlcloud/Financial-Chatbot/blob/master/ChatBot/demo.gif)
