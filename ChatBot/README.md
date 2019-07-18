@@ -27,6 +27,10 @@ The training data is created by myself, and using `RASA NLU` to be data training
 ├── wxpy.plk &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// The buffer generated once you log in<br>
 
 ## Getting Started
+Download whole project and use python to run the source programe<br>
+`python Chatbot.py`<br>
+Then you can communicate with Chatbot and ask him about stock information<br>
+And if you want to 
 
 ## Demo
 Here is the [Demo Video](https://github.com/dmmlcloud/Financial-Chatbot/blob/master/ChatBot/WeChat_test.mp4) of the Chatbot running on WeChat
