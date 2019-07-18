@@ -29,4 +29,4 @@ The training data is created by myself, and using `RASA NLU` to be data training
 ## Getting Started
 
 ## Demo
-Here is the [Demo Video]() of the Chatbot running on WeChat
+Here is the [Demo Video](https://github.com/dmmlcloud/Financial-Chatbot/blob/master/ChatBot/WeChat_test.mp4) of the Chatbot running on WeChat
