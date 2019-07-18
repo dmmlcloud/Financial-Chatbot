@@ -12,7 +12,9 @@ The training data is created by myself, and using `RASA NLU` to be data training
 1. Python<br>
 2. Anaconda<br>
 3. Rasa Nlu<br>`conda install -c conda-forge spacy=2.0.11`<br>`python -m spacy download en_core_web_md`<br>
-4. <br>
+4. Iexfinance<br>`pip install iexfinance` or<br>`git clone https://github.com/addisonlynch/iexfinance.git`<br>
+`cd iexfinance`<br>
+`pip install`<br>
 
 <h2 id="2"> File Manifest</h2>
 
