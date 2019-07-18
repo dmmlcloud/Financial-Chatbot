@@ -9,10 +9,10 @@ The training data is created by myself, and using `RASA NLU` to be data training
 [Demo](#4)<br>
 
 <h2 id="1"> Requirement</h2>
-1.Python<br>
-2.Anaconda<br>
-3.Rasa Nlu<br>`conda install -c conda-forge spacy=2.0.11`<br>`python -m spacy download en_core_web_md`<br>
-5.<br>
+1. Python<br>
+2. Anaconda<br>
+3. Rasa Nlu `conda install -c conda-forge spacy=2.0.11` `python -m spacy download en_core_web_md`<br>
+4. <br>
 
 <h2 id="2"> File Manifest</h2>
 
