@@ -1,8 +1,8 @@
 # Financial-Chatbot
+
+## Content
 ---
-##Content
----
-*[Requirement](#1)
-*[File Manifest](#2)
-*[Getting Started](#3)
-*[Demo](#4)
+[Requirement](#1)<br>
+[File Manifest](#2)<br>
+[Getting Started](#3)<br>
+[Demo](#4)
