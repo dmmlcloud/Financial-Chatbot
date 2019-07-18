@@ -17,8 +17,8 @@ The training data is created by myself, and using `RASA NLU` to be data training
 `pip install`<br>
 
 ## File Manifest
-├── Readme.md&emsp;&emsp;&emsp;&emsp;// help<br>
-├── Chatbot.py&emsp;&emsp;// Source program of Chatbot<br>
+├── Readme.md&emsp;&emsp;&emsp;&emsp;&emsp;// help<br>
+├── Chatbot.py&emsp;&emsp;&emsp;&emsp;&ensp;// Source program of Chatbot<br>
 ├── Chatbot_wechat.py&emsp;&emsp;// Source program of Chatbot on Wechat<br>
 ├── Chatbot_train.json&emsp;// Training data<br>
 ├── config_spacy.yml&emsp;// Config for spacy<br>
