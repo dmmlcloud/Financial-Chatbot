@@ -17,14 +17,14 @@ The training data is created by myself, and using `RASA NLU` to be data training
 `pip install`<br>
 
 ## File Manifest
-├── Readme.md                   // help<br>
-├── Chatbot.py                  // Source program of Chatbot<br>
-├── Chatbot_wechat.py           // Source program of Chatbot on Wechat<br>
-├── Chatbot_train.json          // Training data<br>
-├── config_spacy.yml            // Config for spacy<br>
-├── historical_data.png         // picture formed by historical data<br>
-├── WeChat_test.mp4             // Demo of Chatbot on Wechat<br>
-├── wxpy.plk                    // The buffer generated once you log in<br>
+├── Readme.md                     // help<br>
+├── Chatbot.py                    // Source program of Chatbot<br>
+├── Chatbot_wechat.py             // Source program of Chatbot on Wechat<br>
+├── Chatbot_train.json            // Training data<br>
+├── config_spacy.yml              // Config for spacy<br>
+├── historical_data.png           // picture formed by historical data<br>
+├── WeChat_test.mp4               // Demo of Chatbot on Wechat<br>
+├── wxpy.plk                      // The buffer generated once you log in<br>
 
 ## Getting Started
 
